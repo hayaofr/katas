@@ -1,0 +1,68 @@
+target/
+.idea/
+*.iml
+
+node_modules/
+node/
+package-lock.json
+docker/src/it/docker/tmp/
+docker/src/it/docker/tomcat/**/*.war
+docker/src/it/docker/tomcat/**/*.xml
+!docker/src/it/docker/tomcat/**/context.xml
+!docker/src/it/docker/tomcat/**/tomcat-users.xml
+docker/src/it/docker/tomcat/**/*.jar
+docker/src/it/docker/tomcat/**/*.properties
+docker/src/it/docker/tomcat/conf/ssl_private.key
+docker/src/it/docker/tomcat/conf/ssl_public.crt
+docker/src/it/docker/tomcat/conf/truststore.jks
+
+
+
+# compiled output
+/dist
+/tmp
+tmpData/
+# dependencies
+/node_modules
+/bower_components
+
+# IDEs and editors
+/.idea
+/.vscode
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+#System Files
+.DS_Store
+Thumbs.db
+=======
+.idea
+*.jar
+target/
+
+*.log
+*.iml
+
+xpay-batch-extract/evt_carte.xml
+/device_metadata.csv
+/cats_evtcard.xml
+/enrollment.csv
+/card.csv
+/device.csv
+/enrollment_status.csv
